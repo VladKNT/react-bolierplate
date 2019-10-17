@@ -12,3 +12,5 @@ export type ThemeStyle =
     | 'caption'
     | 'button'
     | 'overline';
+
+export type ThemeBreakpoint = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
