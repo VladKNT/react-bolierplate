@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/jest": "24.0.19",
-    "@types/node": "12.11.1",
-    "@types/react": "16.9.7",
-    "@types/react-dom": "16.9.2",
+    "clsx": "^1.0.4",
+    "history": "^4.10.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-jss": "^10.0.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "typescript": "3.6.4"
   },
@@ -32,5 +32,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.19",
+    "@types/node": "12.11.1",
+    "@types/react": "16.9.7",
+    "@types/react-dom": "16.9.2",
+    "@types/react-jss": "^8.6.4",
+    "@types/react-router-dom": "^5.1.0"
   }
 }
