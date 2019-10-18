@@ -1,7 +1,8 @@
 import React, { ReactNode, Component } from 'react';
 import withStyles, { WithStyles } from 'react-jss';
 import clsx from "clsx";
-import { Typography } from '../../../../components/Typography';
+import { Flexbox } from '../../../../components/ui/Flexbox';
+import { Typography } from '../../../../components/ui/Typography';
 import { STRINGS } from '../../../../constants/strings';
 import { mainFooterStyle } from './MainFooter.style';
 
@@ -18,11 +19,11 @@ class MainFooter extends Component<IMainFooterProps> {
         const { classes, className } = this.props;
 
         return (
-            <div className={clsx(classes.root, className)}>
+            <Flexbox className={clsx(classes.root, className)} alignItems="center">
                 <Typography variant="h5" className={classes.license}>
                     {STRINGS.LICENSE}
                 </Typography>
-            </div>
+            </Flexbox>
         );
     }
 }

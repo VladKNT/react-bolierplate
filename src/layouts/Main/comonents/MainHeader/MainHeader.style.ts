@@ -4,10 +4,14 @@ export const mainHeaderStyle = (theme: any) => ({
         top: 0,
         right: 0,
         left: 0,
-        display: 'flex',
-        alignItems: 'center',
         padding: theme.spacing(1, 3),
         backgroundColor: theme.palette.primary.main,
+    },
+
+    logoContainer: {
+        display: 'flex',
+        alignItems: 'center',
+        textDecoration: 'none',
     },
 
     logo: {
@@ -19,4 +23,21 @@ export const mainHeaderStyle = (theme: any) => ({
         color: theme.palette.primary.contrastText,
         marginLeft: theme.spacing(1),
     },
+
+    navigationContainer: {
+        marginLeft: theme.spacing(1),
+    },
+
+    navigationItem: {
+        margin: theme.spacing(0, 1),
+        textDecoration: 'none',
+    },
+
+    navigationSelectedItem: {
+        borderBottom: `${theme.palette.primary.contrastText} solid 2px`,
+    },
+
+    navigationItemText: {
+        color: theme.palette.primary.contrastText,
+    }
 });

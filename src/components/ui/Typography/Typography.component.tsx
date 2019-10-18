@@ -1,7 +1,7 @@
 import React, { PureComponent, ReactNode } from 'react';
 import withStyles, { WithStyles } from 'react-jss';
 import clsx from 'clsx';
-import { ThemeStyle } from '../../constants/theme';
+import { ThemeStyle } from '../../../constants/theme';
 import { typographyStyle } from './Typography.style';
 
 export interface ITypographyOwnProps {
